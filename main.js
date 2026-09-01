@@ -93,6 +93,13 @@ function render() {
       <main>
         <section class="hero">
           <div class="hero-badge">⚡ Fast • Simple • Free</div>
+
+            <div class="platforms">
+              <span class="platform-label">Supported:</span>
+              <span class="platform youtube">▶ YouTube</span>
+              <span class="platform tiktok">♪ TikTok</span>
+              <span class="platform facebook">f Facebook</span>
+            </div>          
           <h1>Download videos<br><span>your way.</span></h1>
           <p>Paste a video URL, choose your preferred quality, and download.</p>
 
