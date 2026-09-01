@@ -168,6 +168,10 @@ def base_ydl_options():
         # Use installed FFmpeg.
         "ffmpeg_location": "/usr/bin",
 
+        # TikTok currently requires browser impersonation on this server.
+        # curl-cffi is installed in the venv and provides the Chrome target.
+        "impersonate": "chrome",
+
         # Avoid writing unnecessary metadata/files.
         "writethumbnail": False,
         "writeinfojson": False,
