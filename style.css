@@ -571,6 +571,38 @@ footer {
   transition: background var(--transition), border var(--transition);
 }
 
+/* ===== SUPPORTED PLATFORMS ===== */
+.platforms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 auto 22px;
+}
+
+.platform-label {
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.platform {
+  padding: 7px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+}
+
+.platform:hover {
+  border-color: var(--primary);
+  transform: translateY(-1px);
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 700px) {
   .header {
