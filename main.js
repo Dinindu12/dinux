@@ -1,4 +1,4 @@
-const API_URL = "http://162.35.189.85:8000";
+const API_URL = "https://162.35.189.85.sslip.io";
 const app = document.querySelector("#app");
 // ===== STATE =====
 const state = {
